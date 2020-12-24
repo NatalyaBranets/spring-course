@@ -1,2 +1,2 @@
 # spring-course
-XML bean configuration in a Spring Application
+XML bean configuration in a MusicPlayer Application
