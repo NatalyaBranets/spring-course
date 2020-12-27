@@ -40,7 +40,7 @@ public class PersonDAO {
             String SQL = "SELECT * FROM person";
             ResultSet resultSet = statement.executeQuery(SQL);
 
-            while(resultSet.next()) {
+            while (resultSet.next()) {
                 Person person = new Person();
                 person.setId(resultSet.getInt("id"));
                 person.setName(resultSet.getString("name"));
